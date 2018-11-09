@@ -36,5 +36,4 @@ function nowServing(line){
        str = str + " " + line[i];
      }
     return str;
-    
   }
