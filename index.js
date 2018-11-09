@@ -36,6 +36,7 @@ function nowServing(line){
      for(var i = 0; i < line.length; i++){
        position += i;
        str += " " + i + "." + " " + line[i] + ",";
+       if
      }
     return str;
   }
