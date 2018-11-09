@@ -37,5 +37,6 @@ function nowServing(line){
        position += i;
        str += " " + i + "." + " " + line[i] + ",";
      }
+     
     return str;
   }
