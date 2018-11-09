@@ -36,10 +36,10 @@ function nowServing(line){
      for(var i = 0; i < line.length; i++){
        if(i + 1 === line.length){
        position += i;
-       str += " " + i + "." + " " + line[i];
+       str += " " + position + "." + " " + line[i];
        } else {
        position += i;
-       str += " " + i + "." + " " + line[i] + ",";
+       str += " " + position + "." + " " + line[i] + ",";
      }
   }
   return str;
