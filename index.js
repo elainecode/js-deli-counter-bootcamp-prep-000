@@ -8,11 +8,11 @@
 
 function takeANumber(line,name){
   line.push(name);
-  var position;
+  var position = 1;
   for(var i = 0; i < line.length; i++ ){
     if(line[i] === name){
       position = i + 1;
-      return "Welcome, " + name + ". You are number " + i + "in line."
+      return "Welcome, " + name + ". You are number " + i + " in line."
     }
   }
 }
