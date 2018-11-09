@@ -32,7 +32,9 @@ function nowServing(line){
       return "The line is currently empty."
     } 
     var str = "";
-     for(var i = 0, i < line.length)
+     for(var i = 0; i < line.length; i++){
+       
+     }
     
     
   }
