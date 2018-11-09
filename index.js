@@ -1,5 +1,4 @@
 
-
 function takeANumber(line,name){
   line.push(name);
   var position = 1;
