@@ -25,8 +25,10 @@ function nowServing(line){
     person = line.shift();
     return person;
   }
+}
   
   function currentLine(line){
-    
+    if(!line.length){
+      
+    }
   }
-}
