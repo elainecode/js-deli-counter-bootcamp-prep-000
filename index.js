@@ -28,13 +28,13 @@ function nowServing(line){
 }
   
   function currentLine(line){
-    var position = 1;
     if(line.length === 0){
       return "The line is currently empty."
     } 
     var str = "Currently serving:";
      for(var i = 0; i < line.length; i++){
        if(i + 1 === line.length){
+       var position = 1;
        position += i;
        str += " " + position + "." + " " + line[i];
        } else {
