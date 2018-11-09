@@ -33,8 +33,8 @@ function nowServing(line){
     } 
     var str = "";
      for(var i = 0; i < line.length; i++){
-       
+       str = str + " " + line[i];
      }
-    
+    return str;
     
   }
