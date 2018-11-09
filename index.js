@@ -28,12 +28,14 @@ function nowServing(line){
 }
   
   function currentLine(line){
+    var position = 1;
     if(line.length === 0){
       return "The line is currently empty."
     } 
     var str = "";
      for(var i = 0; i < line.length; i++){
-       str = str + " " + line[i];
+       position += i;
+       str += " " + i + "." + " " + line[i] + ",";
      }
     return str;
   }
