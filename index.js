@@ -4,7 +4,9 @@
 */
 
 function takeANumber(line,name){
-  
+  line.push(name);
+  var position;
+  for(var i = 0; i )
 }
 
 function nowServing(line){
