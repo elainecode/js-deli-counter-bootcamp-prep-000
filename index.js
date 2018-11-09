@@ -34,9 +34,13 @@ function nowServing(line){
     } 
     var str = "Currently serving:";
      for(var i = 0; i < line.length; i++){
+       if(i + 1 === line.length){
+       position += i;
+       str += " " + i + "." + " " + line[i];
+       } else {
        position += i;
        str += " " + i + "." + " " + line[i] + ",";
-       if
+       
      }
     return str;
   }
