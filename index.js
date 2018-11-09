@@ -6,7 +6,12 @@
 function takeANumber(line,name){
   line.push(name);
   var position;
-  for(var i = 0; i )
+  for(var i = 0; i < line.length; i++ ){
+    if(line[i] === name){
+      position = i + 1;
+      return 
+    }
+  }
 }
 
 function nowServing(line){
