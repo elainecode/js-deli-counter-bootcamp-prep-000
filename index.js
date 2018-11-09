@@ -40,7 +40,7 @@ function nowServing(line){
        } else {
        position += i;
        str += " " + i + "." + " " + line[i] + ",";
-       
      }
     return str;
+  }
   }
