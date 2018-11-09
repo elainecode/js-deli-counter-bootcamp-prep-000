@@ -26,5 +26,5 @@ function nowServing(line){
     return person;
   }
   
-  function 
+  function currentLine()
 }
