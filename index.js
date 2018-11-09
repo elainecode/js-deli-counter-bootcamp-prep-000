@@ -11,7 +11,7 @@ function takeANumber(line,name){
   var position = 1;
   for(var i = 0; i < line.length; i++ ){
     if(line[i] === name){
-      position += i + 1;
+      position += i++;
       return "Welcome, " + name + ". You are number " + i + " in line."
     }
   }
